@@ -1,7 +1,7 @@
-from generic_day import GenericDay
+from day_generic import DayGeneric
 
 
-class ProvinceDay(GenericDay):
+class DayProvince(DayGeneric):
     """Class representing a single province day data."""
 
     def __init__(self, data):

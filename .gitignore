@@ -1,6 +1,21 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/python,macos,vscode
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,macos,vscode
+# Created by https://www.toptal.com/developers/gitignore/api/macos,python,vscode,linux
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,python,vscode,linux
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
 ### macOS ###
 # General
@@ -181,11 +196,6 @@ Thumbs.db
 
 
 ### vscode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
+.vscode
 
-# End of https://www.toptal.com/developers/gitignore/api/python,macos,vscode
+# End of https://www.toptal.com/developers/gitignore/api/macos,python,vscode,linux
