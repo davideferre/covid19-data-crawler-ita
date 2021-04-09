@@ -36,6 +36,7 @@ class DayGeneric:
         points = [self._point_struct]
         try:
             result = client.write_points(points)
+            client.close()
         except Exception as e:
             print(e)
             result = False
